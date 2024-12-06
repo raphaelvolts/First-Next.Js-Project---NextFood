@@ -7,6 +7,11 @@ import classes from "./page.module.css";
 
 import { getMeals } from "@/lib/meals";
 
+export const metadata = {
+  title: "Browse Meals",
+  description: "Delicious meals, shared by our vibrant food-loving community."
+};
+
 function Meals() {
   const meals = getMeals();
 
